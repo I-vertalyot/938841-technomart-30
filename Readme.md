@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Vertalyot](https://up.htmlacademy.ru/htmlcss/30/user/938841).
-* Наставник: `Неизвестно`.
+* Наставник: `Игорь Кострубин`(https://htmlacademy.ru/profile/id1201177).
 
 ---
 
