@@ -1,6 +1,382 @@
+
+/* Variables */
+
+:root {
+  --primary-color: #EE3643;
+  --secondary-color:#63A63E;
+  --dark-color: #293449;
+  --light-color: #F1F5F7;
+  --light2-color: #F7F3EC;
+  --basic-black: #000000;
+  --basic-white: #FFFFFF;
+  --max-width: 940px;
+
+  --special: #32425C;
+  --special2: #EAEAEA;
+  --special3: #A9A9A9;
+  --special4: #F3F7F9;
+  --special5: #FFD180;
+
+  /* Promo section colors */
+  --materials-color: #FFBF47;
+  --instruments-color: #3BBCE3;
+  --technics-color: #DC91D8;
+  --sale-color: #8ED78F;
+}
+
+
+/* Reset */
+
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
+
+/* Global */
+
+.page-body {
+ font-family: 'PT Sans', sans-serif;
+ font-size: 13px;
+ line-height: 24px;
+ color: var(--basic-black);
+ background-color: var(--basic-white);
+
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/* Utilites */
+
+.visually-hidden{
+  display: none;
+}
+
+.container {
+  width: var(--max-width);
+}
+
+.btn {
+  font-family: 'Cuprum', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: var(--primary-color);
+  color: var(--basic-white);
+}
+
+
+/* Header */
+
+.main-header {
+  background-color: var(--light-color);
+}
+
+            /* User Navigation section*/
+.user-navigation-wrapper {
+  background-color: var(--dark-color);
+}
+
+.user-navigation {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.logo-wrapper {
+  background-color: var(--primary-color);
+}
+
+.search-input {
+  background-color: transparent;
+  border: none;
+  color: var(--basic-white);
+}
+
+.user-navigation a{
+  color: var(--basic-white);
+}
+
+.to-order {
+  background-color: var(--secondary-color);
+}
+
+                /* Info section */
+
+.header-info-login-registration {
+font-family: 'Cuprum', sans-serif;
+}
+
+.header-about {
+ font-style: italic;
+ color: var(--primary-color);
+ font-size: 16px;
+ line-height: 23px;
+}
+
+.header-tel {
+  color: var(--primary-color);
+  font-size: 21px;
+  line-height: 30px;
+  border: 2px solid var(--basic-white);
+}
+
+.header-adress {
+ font-size: 14px;
+ line-height: 24px;
+ color: var(--special);
+}
+
+.login-link,
+.registration-link {
+  font-size: 21px;
+  line-height: 21px;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+
+             /* Main navigation section */
+
+.main-navigation {
+ font-size: 18px;
+ line-height: 24px;
+background-color: var(--dark-color);
+}
+
+.site-navigation-item a{
+  color: var(--basic-white)
+}
+
+
+ /* Main Content */
+
+main {
+  background-color: var(--basic-white);
+}
+
+                  /* Promo section */
+
+.promo {
+font-family: 'Cuprum', sans-serif;
+}
+
+.promo-list h3{
+ font-size: 24px;
+ line-height: 30px;
+ font-weight: 700;
+ color: var(--basic-white);
+}
+
+.promo-list a{
+font-size: 14px;
+line-height: 18px;
+/* background-color: var(--basic-white); */
+color: var(--basic-white);
+}
+
+.promo-list-item:first-child,
+.promo-list-item:last-child{
+  background-color: var(--materials-color);
+}
+
+.promo-list-item:nth-child(2) {
+ background-color: var(--instruments-color);
+}
+.promo-list-item:nth-child(3) {
+ background-color: var(--technics-color);
+}
+.promo-list-item:nth-child(5) {
+ background-color: var(--sale-color);
+}
+
+              /* Popular items section */
+
+.popular-items-heading {
+ background-color: var(--light2-color);
+}
+
+.popular-items-heading h2 {
+font-size: 30px;
+line-height: 30px;
+color: var(--special);
+font-weight: normal;
+}
+
+.popular-list-item a {
+  color: #000000;
+}
+
+.popular-list-item {
+ border: 1px solid var(--special2);
+}
+
+.popular-list-item h3 {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.popular-list-item p {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.old-price {
+  text-decoration-line: line-through;
+  color: var(--special3);
+  text-transform: uppercase;
+}
+
+.new-price {
+  color: var(--basic-white);
+  background-color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+          /* Popular Lables section */
+
+.popular-lables-heading {
+ background-color: var(--light2-color);
+}
+
+.popular-lables-heading h2 {
+ font-size: 30px;
+ line-height: 30px;
+ color: var(--special);
+ font-weight: normal;
+}
+
+.lables-list-item {
+  border: 1px solid var(--special2);
+}
+
+
+          /* Services section */
+
+.services {
+  background-color: var(--light-color);
+}
+
+.services h2{
+ font-family:'Cuprum', sans-serif;
+ font-size: 30px;
+ line-height: 30px;
+ color: var(--basic-black);
+}
+
+.services-list a{
+ font-family: 'Cuprum', sans-serif;
+ font-weight: bold;
+ font-size: 21px;
+ line-height: 30px;
+ color: var(--basic-white);
+ background-color: var(--special);
+}
+
+.delivery h3,
+.credit h3,
+.waranty h3 {
+  font-family:'Cuprum', sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  color: var(--special);
+ }
+
+ .active-button a{
+  background-color: var(--basic-white);
+  color: var(--special);
+ }
+
+          /* Columns wrapper style */
+
+.columns-wrapper {
+  display: grid;
+}
+          /* About section */
+
+ .about h2{
+  font-family:'Cuprum', sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  color: var(--basic-black);
+ }
+
+ .co-work-list {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+ }
+
+          /* Contacts section */
+
+.contacts h2 {
+  font-family:'Cuprum', sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  color: var(--basic-black);
+}
+
+/* Footer */
+
+.main-footer {
+  background-color: var(--special);
+  color: var(--basic-white);
+  font-family: 'Cuprum', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+          /*Top section */
+
+.footer-tel {
+  color: var(--special4);
+}
+
+.footer-nav-top a {
+  color: var(--special4);
+}
+
+.footer-nav-bottom a {
+  color: var(--special5);
+}
+
+          /*Bottom section */
+
+.footer-bottom {
+ background-color: var(--dark-color);
+ font-size: 16px;
+ line-height: 18px;
+}
+
+.academy-mail,
+.academy-link {
+  color: var(--special5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
