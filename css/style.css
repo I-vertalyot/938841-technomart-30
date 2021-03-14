@@ -16,6 +16,7 @@
   --special3: #A9A9A9;
   --special4: #F3F7F9;
   --special5: #FFD180;
+  --special6: #E5E5E5;
 
   /* Promo section colors */
   --materials-color: #FFBF47;
@@ -36,12 +37,12 @@
 /* Global */
 
 .page-body {
- font-family: 'PT Sans', 'Arial', sans-serif;
- font-size: 13px;
- line-height: 24px;
- color: var(--basic-black);
- background-color: var(--basic-white);
-
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+  font-weight: normal;
 }
 
 a {
@@ -57,7 +58,7 @@ img {
 
 /* Utilites */
 
-.visually-hidden{
+.visually-hidden {
   display: none;
 }
 
@@ -73,6 +74,15 @@ img {
   background-color: var(--primary-color);
   color: var(--basic-white);
 }
+
+.catalog-btn {
+    font-family: 'PT Sans', 'Arial', sans-serif;;
+    font-size: 13px;
+    line-height: 18px;
+    background: transparent;
+    border: 1px solid var(--special6);
+  }
+
 
 
 /* Header */
@@ -180,7 +190,6 @@ font-family: 'Cuprum', 'Arial', sans-serif;
 .promo-list a{
 font-size: 14px;
 line-height: 18px;
-/* background-color: var(--basic-white); */
 color: var(--basic-white);
 }
 
@@ -363,6 +372,161 @@ font-weight: normal;
 .academy-link {
   color: var(--special5);
 }
+
+
+/* CATALOG PAGE */
+
+.user-account {
+  font-family: 'Cuprum', 'Arial', sans-serif;
+  font-weight: 400;
+}
+
+.user-account-link {
+  font-size: 21px;
+  line-height: 21px;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+.my-orders-link,
+.my-cab-link {
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--special);
+}
+
+.user-account ul {
+  list-style: square;
+}
+
+
+/* Main content (CATALOG PAGE) */
+
+.breadcrumbs-list {
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.breadcrumbs-list-item a {
+  color: var(--basic-black);
+}
+
+
+.page-catalog h1 {
+ font-family: 'Cuprum', 'Arial', sans-serif;
+ font-size: 30px;
+ line-height: 30px;
+ color: var(--special);
+ background-color: var(--light-color);
+}
+
+ /* Catalog Form */
+
+.filter-items h2 {
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--basic-black);
+  background-color: var(--light2-color);
+  font-weight: normal;
+}
+.filter-headings {
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  color: var(--basic-black);
+  font-weight: bold;
+}
+
+.slider-option {
+  background-color: var(--light2-color);
+  font-size: 17px;
+  line-height: 18px;
+  color: var(--basic-black);
+}
+
+.lables-filter-item,
+.power-filter-item {
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-size: 15px;
+  line-height: 19px;
+  color: var(--basic-black);
+  font-weight: normal;
+}
+
+
+/* Catalog items content*/
+
+.sort-option h3 {
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: normal;
+}
+
+.sort-option {
+  color: var(--basic-black);
+  background-color: var(--light2-color);
+}
+
+.sort-option {
+  font-family: 'Pt Sans', 'Arial', sans-serif;
+  font-size: 13px;
+  line-height: 16.82px;
+}
+.sort-option-item a {
+  color: var(--basic-black);
+}
+
+.sort-option-item a:hover {
+  text-decoration: underline dotted red;
+}
+
+ /* Catalog Item styles */
+
+.catalog-list-item {
+  border: 1px solid var(--special6);
+ }
+
+.catalog-list-item h3 {
+  color: var(--basic-black);
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.catalog-list-item p {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.pagination-list-item a {
+  color: var(--basic-black);
+  border: 1px solid var(--special6);
+}
+
+.active-page {
+  background-color: var(--primary-color);
+  color: var(--basic-white);
+}
+
+/* About Perforators section */
+
+.about-perforators {
+  background-color: var(--light-color);
+}
+
+.about-perforators h2 {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+
+
+
 
 
 
